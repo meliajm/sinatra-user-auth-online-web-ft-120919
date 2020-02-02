@@ -8,3 +8,6 @@ class CreateUsers < ActiveRecord::Migration
   end
 
 end
+
+# rake db:create_migration NAME=create_users
+# rake db:migrate SINATRA_ENV=test
